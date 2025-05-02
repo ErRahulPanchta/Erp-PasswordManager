@@ -1,17 +1,35 @@
-<<<<<<< HEAD
-# Password-Manager
-This is a Password manager 
-=======
-# React + Vite
+# 🔐 Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure password manager built using the **MERN Stack** (MongoDB, Express, React, Node.js). This app allows users to store and manage their credentials with client-side encryption and authentication.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Live Website](https://erp-password-manager.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 1de55ae (initial commit)
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Atlas)
+- **Authentication:** JWT (JSON Web Tokens)
+- **Security:** bcrypt, HTTPS, Helmet, dotenv
+  
+## ✨ Features
+
+- ✅ User authentication (JWT-based)
+- ✅ Add, edit, and delete credentials
+- ✅ Secure password encryption
+- ✅ Responsive UI with Tailwind CSS
+- ✅ Protected routes and validation
+- ✅ Light/Dark mode toggle (optional)
+
+## 📸 Screenshots
+
+![Screenshot1](password.png)
+## 📦 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ErRahulPanchta/password-manager.git
+cd password-manager
